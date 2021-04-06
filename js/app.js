@@ -9,6 +9,7 @@ new Swiper('.home__container', {
     },
     
     observer: true,
+    /* autoHeight: true, */
     observeParents: true,
     slidesPerView: 1,
     spaceBetween: 50,
@@ -19,10 +20,10 @@ new Swiper('.home__container', {
     //preloadImages: false,
     //lazy: true,
     // Dotts
-    pagination: {
+   /*  pagination: {
     	el: '.slider-quality__pagging',
     	clickable: true,
-    },
+    }, */
     // Arrows
     navigation: {
         nextEl: '.arrow-next',
