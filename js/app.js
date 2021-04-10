@@ -3,10 +3,10 @@ function email_test(input) {
 }
 new Swiper('.home__container', {
     
-    autoplay: {
+   /*  autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-    },
+    }, */
     
     observer: true,
     /* autoHeight: true, */
@@ -30,7 +30,7 @@ new Swiper('.home__container', {
         prevEl: '.arrow-prev',
     },
     
-    breakpoints: {
+    /* breakpoints: {
         320: {
             slidesPerView: 1,
             spaceBetween: 50,
@@ -48,7 +48,7 @@ new Swiper('.home__container', {
             slidesPerView: 1,
             spaceBetween: 30,
         },
-    },
+    }, */
    
     on: {
         lazyImageReady: function () {
